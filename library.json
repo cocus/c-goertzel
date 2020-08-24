@@ -1,0 +1,22 @@
+{
+    "name": "c-goertzel",
+    "version": "0.1",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/cocus/c-goertzel.git"
+    },
+    "authors": {
+        "name": "Santiago Hormazabal",
+        "email": "santiagohssl@gmail.com"
+    },
+    "export": {
+        "include": [
+            "src/*.[ch]"
+        ],
+        "exclude": [
+            "test/*"
+        ]
+    },
+    "frameworks": "*",
+    "platforms": "*"
+}
